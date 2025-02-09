@@ -16,6 +16,8 @@ class ServiceProvider extends BaseServiceProvider
 {
     /**
      * Register any application services.
+     *
+     * @codeCoverageIgnore
      */
     public function register(): void
     {

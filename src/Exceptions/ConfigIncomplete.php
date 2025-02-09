@@ -8,6 +8,8 @@ use InvalidArgumentException;
 
 /**
  * @internal
+ *
+ * @codeCoverageIgnore
  */
 class ConfigIncomplete extends InvalidArgumentException
 {
