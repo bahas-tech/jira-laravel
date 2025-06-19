@@ -20,7 +20,7 @@
     "require": {
         "php": "^8.1.0",
         "laravel/framework": "^9.0|^10.0|^11.0",
-        "devmoath/jira-php": "0.*"
+        "devmoath/jira-php": "dev-0.*"
     },
     "require-dev": {
         "laravel/pint": "^1.2.0",
@@ -68,5 +68,11 @@
             "@test:types",
             "@test:unit"
         ]
+    },
+    "repositories": {
+        "devmoath/jira-php": {
+            "type": "vcs",
+            "url": "https://github.com/bahas-tech/jira-php"
+        }
     }
 }
