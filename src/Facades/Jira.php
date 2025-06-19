@@ -8,6 +8,7 @@ use Illuminate\Support\Facades\Facade;
 use Jira\Resources\Attachments;
 use Jira\Resources\Board;
 use Jira\Resources\Customers;
+use Jira\Resources\Filter;
 use Jira\Resources\Groups;
 use Jira\Resources\Issues;
 use Jira\Resources\Project;
@@ -17,6 +18,7 @@ use Jira\Resources\Users;
 /**
  * @method static Attachments attachments()
  * @method static Board board()
+ * @method static Filter filter()
  * @method static Customers customers()
  * @method static Groups groups()
  * @method static Issues issues()
