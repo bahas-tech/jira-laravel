@@ -6,17 +6,21 @@ namespace Jira\Laravel\Facades;
 
 use Illuminate\Support\Facades\Facade;
 use Jira\Resources\Attachments;
+use Jira\Resources\Board;
 use Jira\Resources\Customers;
 use Jira\Resources\Groups;
 use Jira\Resources\Issues;
+use Jira\Resources\Project;
 use Jira\Resources\Requests;
 use Jira\Resources\Users;
 
 /**
  * @method static Attachments attachments()
+ * @method static Board board()
  * @method static Customers customers()
  * @method static Groups groups()
  * @method static Issues issues()
+ * @method static Project project()
  * @method static Requests requests()
  * @method static Users users()
  */
